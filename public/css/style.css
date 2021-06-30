@@ -1,0 +1,234 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.container-fluid img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.top-sec{
+    background-image: url("/images/hulk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    color: white;
+    line-height: 1;
+    text-align: center;
+    padding-top: 7%;
+    width: 100%;
+}
+
+.lasth{
+    margin-bottom:2%;
+}
+
+.top span{
+    color: rgb(224, 55, 83);
+}
+
+
+.top-sec .btn{
+    margin-top: 2%;
+    border-radius: 10%;
+}
+
+/******************* our-games ************************/
+.middle{
+    width: 100%;
+    background-color: rgba(14, 13, 66, 0.603);
+}
+div.mid{
+    display:flex;
+    justify-content: space-between;
+    height: max-content;
+    margin-bottom: 2%;
+}
+span{
+    color: red;   
+}
+
+ hr, h1{
+    display: inline-block;
+}
+.s-hr{
+    width: 79%;
+}
+
+
+hr{
+    width: 75px;
+    border:1.5px solid gray;
+}
+.dice{
+    background-color: rgba(14, 13, 66, 0.603);
+    height: 140px;
+    color: white;
+    margin: 4% 10%;
+}
+.dice img{
+    height: 100%;
+    width: 100px;
+    float: right;
+}
+
+.dice div{
+    display:inline-block;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.btn{
+    margin-top: 2%;
+}
+
+/***************** third section **********************/
+
+.third .s-hr{
+    width: 70%;
+}
+
+.upcoming{
+    background-color: rgba(14, 13, 66, 0.603);
+    width: 100%;
+}
+
+.third .card{
+    margin:15% 3%;
+    padding: 5%;
+    padding-right: 30%;
+}
+.third .card .btn{
+    width:40%;
+    margin-top: 5%;
+}
+
+.snake{
+    background-image: url(/images/snake.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.pubg{
+    background-image: url(/images/pubg.jpg);
+    background-size: cover;
+    color: black;
+    
+}
+
+.lol{
+    background-image: url(/images/lol.png);
+    background-size: cover;
+    color: white;
+}
+/***************** foth section ***************/
+.forth .s-hr{
+    width:62%;
+}
+
+.forth .card-body{
+    color:honeydew;
+}
+
+.forth .card span{
+    font-weight: bold;
+    color: rgb(248, 51, 57);
+}
+
+.card-img-top{
+    height: 150px;
+}
+
+.card{
+    margin: 2%;
+    padding: 0;
+    background-color: rgb(63, 47, 47);
+}
+.tournament{
+    padding-left: 25%;
+    background-image: url("/images/tour.jpg");
+}
+
+/* ***********contact************* */
+.contact{
+    background-color: rgb(34, 21, 16);
+}
+.post{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    
+}
+.contact-title img{
+    height:80px;
+    width:80px;
+    border-radius: 100%;
+}
+
+.contact-title a{
+    font-size: 2.5rem;
+}
+
+.contact .row img{
+    float: left;
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    margin-right: 1%;
+}
+
+.contact .row{
+    width: 60%;
+    color: white;
+}
+
+.contact-us{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.contact-us a{
+    padding: 1%;
+}
+
+/* registration form */
+.reg{
+    display: none;
+    width:60%;
+    position: absolute;
+    top:25%;
+    left:25%;
+    opacity: 1;
+    background-color: darkgreen;
+    color: white;
+}
+
+.login{
+    display: none;
+    width:60%;
+    position: absolute;
+    top:25%;
+    left:25%;
+    opacity: 1;
+    background-color:darkgreen;
+    color: white;
+}
+
+.rego{
+    display:none;
+
+}
+
+.after_reg{
+    display:none;
+}
+
+

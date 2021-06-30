@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1fa7991d4.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/icon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>gamez</title>
+</head>
+<body>
+    <section class="top" id="home">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <img src="images/logo.png" alt="Worriors logo">
+              <a class="navbar-brand" href="#"><span>Worriors</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#game">Games</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#upcoming">Upcomings</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Tournamnt">Tournaments</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactus">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <a href="" class="navbar-brand user"><i class="fas fa-user"></i> <%= user %></a>
+            </div>
+          </nav>
+          <div class="reg">
+            <form action="/" method="post"> 
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+              </div>
+              <button type="submit" class="btn btn-primary regs" name="register">Register</button>
+            </form>
+          </div>
+          <div class="login">
+            <form action="/login" method="post"> 
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="login_username">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="login_password">
+              </div>
+              <button type="submit" class="btn btn-primary regs"name="login" >Login</button>
+            </form>
+          </div>
+          <div class="top-sec">
+            <h1>Welcome<span> Summoners</span></h1>
+            <h6>world's best moba game site where you find your leages and bocoming a legend</h6>
+            <h6 class="lasth">play with your freinds and create a strongest team ever.</h6>
+            <button class="btn btn-lg btn-dark regb <%= cname %>">Register</button>
+            <button class="btn btn-outline-light btn-lg regl">Login</button>
+            <a href="/" class="btn btn-lg btn-dark rego <%= outname %>">Logout</a>
+          </div>
+    </section>
+
+    <section class="mid" id="game">
+        <hr ><h1>Our <span> Games</span></h1><hr class="s-hr">
+        <div class="mid">
+        <div class="garen">
+            <img src="images/garen.jpg" alt="image">
+        </div>
+        <div class="middle">
+           <div class="dice">
+               <div>
+                <h3>The Dice Game</h3>
+                <p>It's wonderfuk 2 players game with high graphics and video.</p>
+                <a href="" class="btn btn-danger">Play now</a>
+               </div>
+               <img src="images/dice.jpg" alt="">
+           </div>
+            <div class="dice">
+                <div>
+                 <h3>The Drum Kit</h3>
+                 <p>It's wonderfuk 2 players game with high graphics and video.</p>
+                 <a href="" class="btn btn-danger">Play now</a>
+                </div>
+                <img src="images/drum.png" alt="">
+           </div>
+            <div class="dice">
+                <div>
+                 <h3>The Simon Game</h3>
+                 <p>It's wonderfuk 2 players game with high graphics and video.</p>
+                 <a href="" class="btn btn-danger">Play now</a>
+                </div>
+                <img src="images/simon.png" alt="">
+           </div>
+        </div>
+        <div class="yasuo">
+            <img src="images/yasuo.jpg" alt="image">
+        </div>
+        </div>
+    </section>
+
+    <section class="third" id="upcoming">
+        <hr ><h1>Upcoming <span> Games</span></h1><hr class="s-hr">
+        <div class="upcoming">
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+          <div class="card snake">
+            <h3>The Snake Game</h3>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et.</h5>
+            <a href="" class="btn btn-danger btn-sm">Read more</a>
+          </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card pubg">
+              <h3>The Battle Ground</h3>
+              <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et.</h5>
+              <a href="" class="btn btn-danger btn-sm">Read more</a>
+            </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+              <div class="card lol">
+                <h3>The Moba Heroes</h3>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, et.</h5>
+                <a href="" class="btn btn-danger btn-sm">Read more</a>
+              </div>
+              </div>
+          </div>
+        </div>
+    </section>
+    <section class="forth" id="Tournamnt">
+      <hr><h1>Upcoming <span>Tournaments</span></h1><hr class="s-hr">
+      <div class="tournament">
+        <div class="row">
+        <div class="card col-lg-4" style="width: 18rem;">
+          <img class="card-img-top" src="images/ludo-t.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Ludo Camp</h4>
+            <h6>Entry Fee  <span>100 rs</span></h6>
+            <h6>Prize Money  <span>10000 rs</span></h6>
+            <h6>Date  <span> 4th July</span></h6>
+            <p>Came up with your freinds and show up your skills.</p>
+            <a href="#" class="btn btn-danger">Know more</a>
+          </div>
+        </div>
+        <div class="card col-lg-4" style="width: 18rem;">
+          <img class="card-img-top" src="images/free-fire.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Free Fire Camp</h4>
+            <h6>Entry Fee  <span>100 rs</span></h6>
+            <h6>Prize Money  <span>10000 rs</span></h6>
+            <h6>Date  <span>4th July</span></h6>
+            <p>Came up with your freinds and show up your skills.</p>
+            <a href="#" class="btn btn-danger">Know more</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="contact" id="contactus">
+      <div class="post">
+      <div class="contact-title">
+        <img src="images/logo.png" alt="Worriors logo">
+        <a class="navbar-brand" href="#"><span>Worriors</span></a>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="images/Faker.jpeg" alt="">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis vel quibusdam eveniet inventore fuga .</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/hack_ind3.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia voluptas odit ex tota.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/fack_ind.jpg" alt="">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex vero voluptas, eos eveniet incidunt .</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/fack_ind2.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eum natus ipsa debitis beatae exercitationem recusand.</p>
+        </div>
+      </div>
+    </div>
+      <div class="contact-us">
+        <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+        <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+        <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+        <a href=""><i class="fas fa-envelope fa-2x"></i></a>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
